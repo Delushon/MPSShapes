@@ -5,18 +5,22 @@ package Shapes.sandbox;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.Graphics;
+import java.awt.Color;
 import java.awt.Dimension;
 
-public class map_Canvas extends JFrame {
+public class MyDrawing extends JFrame {
   private JPanel panel = new JPanel() {
     @Override
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
-      System.out.println("DRAW HERE");
+      graphics.setColor(Color.green);
+      graphics.drawOval(10, 20, 30, 30);
+      graphics.setColor(Color.yellow);
+      graphics.drawRect(100, 200, 50, 50);
     }
   };
   public void initialize() {
-    this.setTitle("title");
+    this.setTitle("MyDrawing");
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.add(panel);
     panel.setPreferredSize(new Dimension(500, 500));
@@ -24,7 +28,7 @@ public class map_Canvas extends JFrame {
     this.setVisible(true);
   }
   public static void main(String[] args) {
-    map_Canvas canvas = new map_Canvas();
+    MyDrawing canvas = new MyDrawing();
     canvas.initialize();
   }
 }
