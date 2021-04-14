@@ -48,6 +48,13 @@
     <property role="TrG5h" value="Shape" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="68cBzPVD53e" role="1TKVEi">
+      <property role="IQ2ns" value="7065195902342025422" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="color" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="68cBzPVCUGW" resolve="ColorReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2viQi_OPgN_">
     <property role="EcuMT" value="2869594684665433317" />
@@ -105,6 +112,27 @@
     </node>
     <node concept="PrWs8" id="2viQi_OPgOc" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="68cBzPVCQ7z">
+    <property role="EcuMT" value="7065195902341964259" />
+    <property role="TrG5h" value="Color" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="color" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="68cBzPVCQ7$" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="68cBzPVCUGW">
+    <property role="EcuMT" value="7065195902341983036" />
+    <property role="TrG5h" value="ColorReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="68cBzPVCUGX" role="1TKVEi">
+      <property role="IQ2ns" value="7065195902341983037" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="68cBzPVCQ7z" resolve="Color" />
     </node>
   </node>
 </model>
