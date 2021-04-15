@@ -40,17 +40,17 @@
     <node concept="1j1Xnc" id="2viQi_OPhht" role="1j1XgA">
       <property role="1j1Xne" value="10" />
       <property role="1j1Xn4" value="20" />
-      <property role="1j1Xnp" value="30" />
-      <node concept="pFNk1" id="68cBzPVDgoE" role="pEcVN">
-        <ref role="pFNk0" to="nrtc:68cBzPVCUGS" resolve="green" />
+      <property role="1j1Xnp" value="200" />
+      <node concept="pFNk1" id="5wCjgZC_UZM" role="pEcVN">
+        <ref role="pFNk0" to="nrtc:68cBzPVCUGT" resolve="red" />
       </node>
     </node>
     <node concept="1j1Xnl" id="2viQi_OPhhy" role="1j1XgA">
       <property role="1j1Xnk" value="100" />
       <property role="1j1Xnm" value="200" />
-      <property role="1j1XgF" value="50" />
-      <node concept="pFNk1" id="68cBzPVDgoG" role="pEcVN">
-        <ref role="pFNk0" to="nrtc:68cBzPVCUGU" resolve="yellow" />
+      <property role="1j1XgF" value="250" />
+      <node concept="pFNk1" id="5wCjgZC_V03" role="pEcVN">
+        <ref role="pFNk0" to="nrtc:68cBzPVCUGV" resolve="black" />
       </node>
     </node>
   </node>
